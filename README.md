@@ -1,2 +1,8 @@
-# jsonxml-processor
-I created a Python application to convert XML files into structured JSON data. The system extracts support ticket information and validates required fields. I implemented error handling to detect incomplete or invalid records. This project demonstrates data processing, file automation, and integration between different data formats.
+# JSON / XML Data Processor
+Convert a structured XML ticket export into JSON, with required-field and priority validation.
+
+```bash
+python processor.py sample.xml output.json
+python -m pytest -q
+```
+Uses Python standard library. Never process untrusted large XML files without additional XML security and size limits.

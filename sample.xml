@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket id="101"><title>Login failure</title><priority>high</priority></ticket>
+  <ticket id="102"><title>Report request</title><priority>low</priority></ticket>
+</tickets>
